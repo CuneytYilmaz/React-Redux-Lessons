@@ -6,6 +6,7 @@
   },
   "plugins": ["react", "jsx-a11y", "import", "prettier"],
   "rules": {
+    "no-console": "off",
     "react/jsx-wrap-multilines": "off",
     "react/jsx-filename-extension": "off",
     "prettier/prettier": [
