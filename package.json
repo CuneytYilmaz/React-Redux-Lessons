@@ -15,6 +15,7 @@
   "author": "CuneytYilmaz",
   "license": "MIT",
   "devDependencies": {
+    "codecov": "^2.2.0",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
@@ -46,10 +47,15 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "*.js": ["yarn run format", "git add"]
+    "*.js": [
+      "yarn run format",
+      "git add"
+    ]
   },
   "pre-commit": "lint-staged",
   "jest": {
-    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
   }
 }
