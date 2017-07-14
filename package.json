@@ -7,15 +7,6 @@
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint:eslint": "eslint .",
-    "lint:stylelint": "stylelint .",
-    "lint": "yarn run lint:eslint && yarn run lint:stylelint",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -24,16 +15,40 @@
   "author": "CuneytYilmaz",
   "license": "MIT",
   "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-plugin-import": "^2.6.1",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
+    "istanbul": "^0.4.5",
     "lint-staged": "^4.0.1",
     "pre-commit": "^1.2.2",
     "prettier": "^1.5.2",
+    "react-test-renderer": "^15.6.1",
     "stylelint": "^7.13.0",
     "stylelint-config-standard": "^16.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint:eslint": "eslint .",
+    "lint:stylelint": "stylelint .",
+    "lint": "yarn run lint:eslint && yarn run lint:stylelint",
+    "format": "prettier --print-width=100 --single-quote --trailing-comma all --write \"{src,__tests__}/**/*.js\"",
+    "lint-staged": "lint-staged",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
+    "postcoverage": "istanbul check-coverage --statements 90 --functions 90 --branches 90 --lines 90",
+    "eject": "react-scripts eject"
+  },
+  "lint-staged": {
+    "*.js": ["yarn run format", "git add"]
+  },
+  "pre-commit": "lint-staged",
+  "jest": {
+    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
   }
 }
