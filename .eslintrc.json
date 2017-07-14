@@ -6,7 +6,10 @@
   },
   "plugins": ["react", "jsx-a11y", "import", "prettier"],
   "rules": {
+<<<<<<< HEAD
     "react/jsx-wrap-multilines": "off",
+=======
+>>>>>>> d04db8f... Eslint, Stylelint and Prettier added to this project
     "react/jsx-filename-extension": "off",
     "prettier/prettier": [
       "error",
