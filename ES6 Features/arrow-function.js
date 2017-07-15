@@ -19,10 +19,8 @@ fn(1, 2);
 const add = (param1, param2) => param1 + param2;
 console.log(add(1, 2));
 
-// const pow = param1 => Math.pow(param1, 2);
-// console.log(pow(3));
-
-// console.log(2 ** 2); //Us alma islemi
+const pow = param1 => param1 ** 2;
+console.log(pow(3));
 
 const fn2 = () => ({
   key1: 'value1',

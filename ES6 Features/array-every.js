@@ -1,0 +1,6 @@
+const arr = [1, 2, 3, 4, 5];
+const output = arr.every(item => item >= 1);
+
+console.log(output);
+
+// sarti sadece hepsi sagliyorsa true
