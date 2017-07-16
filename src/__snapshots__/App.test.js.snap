@@ -23,7 +23,14 @@ exports[`renders correctly 1`] = `
     <code>
       src/App.js
     </code>
-     and save to reload.
+     and save to reload. 
+    <br />
+    created by 
+    <a
+      href="https://github.com/cuneytyilmaz"
+    >
+      @cuneytyilmaz
+    </a>
   </p>
 </div>
 `;
