@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   },
   "main": "index.js",
   "repository": {
@@ -22,6 +26,7 @@
     "enzyme-to-json": "^1.5.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-import": "^2.6.1",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-prettier": "^2.1.2",

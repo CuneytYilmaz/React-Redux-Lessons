@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../img/logo.svg';
 import './App.css';
 
 const App = () =>
@@ -9,7 +9,8 @@ const App = () =>
       <h2>Welcome to React App</h2>
     </div>
     <p className="App-intro">
-      To get started, edit <code>src/App.js</code> and save to reload.
+      To get started, edit <code>src/App.js</code> and save to reload. <br />
+      created by <a href="https://github.com/cuneytyilmaz">@cuneytyilmaz</a>
     </p>
   </div>;
 
