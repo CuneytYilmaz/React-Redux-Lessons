@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "history": "^4.6.3",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "next",
     "react-scripts": "1.0.10",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
@@ -49,8 +54,8 @@
     "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "yarn run lint && yarn test && yarn run coverage",
-    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/components/App.js",
-    "postcoverage": "istanbul check-coverage --statements 0 --functions 0 --branches 0 --lines 0",
+    "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
+    "postcoverage": "istanbul check-coverage --statements 30 --functions 70 --branches 0 --lines 30",
     "eject": "react-scripts eject"
   },
   "lint-staged": {
