@@ -1,5 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url(./img/bg.png);
+}
+
+a {
+  color: #ff483e;
+  text-decoration-line: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c63d35;
+}
+
+a:focus,
+button:focus {
+  outline: none;
 }

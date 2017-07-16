@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
     "history": "^4.6.3",
+    "normalize.css": "^7.0.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -59,10 +61,15 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "*.js": ["yarn run format", "git add"]
+    "*.js": [
+      "yarn run format",
+      "git add"
+    ]
   },
   "pre-commit": "lint-staged",
   "jest": {
-    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
   }
 }
