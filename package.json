@@ -49,7 +49,6 @@
     "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "yarn run lint && yarn test && yarn run coverage",
-    // "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/index.js",
     "coverage": "yarn run test -- --coverage --collectCoverageFrom=src/components/App.js",
     "postcoverage": "istanbul check-coverage --statements 0 --functions 0 --branches 0 --lines 0",
     "eject": "react-scripts eject"
