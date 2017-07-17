@@ -1,9 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Slider from '../components/slider/Slider';
 
-const Home = () =>
-  <div>
-    <h2>Anasayfa</h2>
-    <Link to="/basla">Kullanmaya Başla</Link>
-  </div>;
+const Home = () => <Slider />;
 export default Home;
