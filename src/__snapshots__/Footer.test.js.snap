@@ -1,7 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<h1>
-  Footer
-</h1>
+<footer
+  className="Footer"
+>
+  <nav
+    className="Footer-menu"
+  >
+    <a
+      className="Footer-menu__item"
+      href="https://github.com/CuneytYilmaz/react-redux-lessons"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      kaynağı görüntüle
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/CuneytYilmazz"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @CuneytYilmazz
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://www.instagram.com/cuneytylmz/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @cuneytylmz
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://www.linkedin.com/in/cuneytyilmaz/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      @cuneytyilmaz
+    </a>
+  </nav>
+</footer>
 `;

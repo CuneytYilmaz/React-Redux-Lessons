@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Content = props =>
-  <div>
+  <main>
     {props.children}
-  </div>;
+  </main>;
 
 Content.propTypes = {
   children: PropTypes.node.isRequired,

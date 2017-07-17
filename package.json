@@ -41,7 +41,7 @@
     "istanbul": "^0.4.5",
     "lint-staged": "^4.0.1",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.5.2",
+    "prettier": "^1.5.3",
     "react-test-renderer": "^15.6.1",
     "stylelint": "^7.13.0",
     "stylelint-config-standard": "^16.0.0"
