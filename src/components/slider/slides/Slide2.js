@@ -2,17 +2,17 @@ import React from 'react';
 
 import Button from '../../ui/Button';
 
-import image from '../../../img/slides/slider-image-1.svg';
+import image from '../../../img/slides/slider-image-2.svg';
 
-const Slide1 = () =>
+const Slide2 = () =>
   <div className="row Slider__slide">
     <div className="col-md-6">
       <h1 className="Slider__title Slider__title--main">
-        Sen de yemek yerken, ne izleyeceğine karar veremiyor musun?
+        Kategorini seç, senin için seçtiğimiz videonun keyfini çıkar!
       </h1>
       <p className="u-gap-bottom">
-        Sen yemeğini yerken ne izleyeceğini düşünme ya da izleyecek bir şeyler ararken yemeğini
-        soğutma diye ses ile de kontrol edebileceğin bir sistem geliştirdik.
+        Video izlemeye başlamak için ilk önce kategorini seç ve rastgele seçtiğimiz videonun keyfini
+        çıkar. Eğer videoyu beğenmezsen sıradaki video’ya geç.
       </p>
       <Button>Kullanmaya Başla!</Button>
     </div>
@@ -20,11 +20,11 @@ const Slide1 = () =>
       <img
         src={image}
         className="u-inline-block"
-        alt="Sen de yemek yerken, ne izleyeceğine karar veremiyor musun?"
         width="400"
         height="378"
+        alt="Kategorini seç, senin için seçtiğimiz videonun keyfini çıkar!"
       />
     </div>
   </div>;
 
-export default Slide1;
+export default Slide2;

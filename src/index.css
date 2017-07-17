@@ -88,3 +88,7 @@ p {
 .u-gap-bottom {
   margin-bottom: 24px !important;
 }
+
+.u-inline-block {
+  display: inline-block !important;
+}
