@@ -1,5 +1,7 @@
 import React from 'react';
 
+import FontAwesome from 'react-fontawesome';
+
 import '../style/Footer.css';
 
 const Footer = () =>
@@ -13,23 +15,13 @@ const Footer = () =>
       >
         kaynağı görüntüle
       </a>
-
       <a
         className="Footer-menu__item"
-        href="https://twitter.com/CuneytYilmazz"
+        href="https://github.com/CuneytYilmaz"
         target="_blank"
         rel="noopener noreferrer"
       >
-        @CuneytYilmazz
-      </a>
-
-      <a
-        className="Footer-menu__item"
-        href="https://www.instagram.com/cuneytylmz/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        @cuneytylmz
+        <FontAwesome name="github" /> CuneytYilmaz
       </a>
 
       <a
@@ -38,7 +30,25 @@ const Footer = () =>
         target="_blank"
         rel="noopener noreferrer"
       >
-        @cuneytyilmaz
+        <FontAwesome name="linkedin" /> cuneytyilmaz
+      </a>
+
+      <a
+        className="Footer-menu__item"
+        href="https://twitter.com/CuneytYilmazz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesome name="twitter" /> CuneytYilmazz
+      </a>
+
+      <a
+        className="Footer-menu__item"
+        href="https://www.instagram.com/cuneytylmz/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesome name="instagram" /> cuneytylmz
       </a>
     </nav>
   </footer>;

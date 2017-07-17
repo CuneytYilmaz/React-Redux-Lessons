@@ -17,19 +17,14 @@ exports[`renders correctly 1`] = `
     </a>
     <a
       className="Footer-menu__item"
-      href="https://twitter.com/CuneytYilmazz"
+      href="https://github.com/CuneytYilmaz"
       rel="noopener noreferrer"
       target="_blank"
     >
-      @CuneytYilmazz
-    </a>
-    <a
-      className="Footer-menu__item"
-      href="https://www.instagram.com/cuneytylmz/"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      @cuneytylmz
+      <FontAwesome
+        name="github"
+      />
+       CuneytYilmaz
     </a>
     <a
       className="Footer-menu__item"
@@ -37,7 +32,32 @@ exports[`renders correctly 1`] = `
       rel="noopener noreferrer"
       target="_blank"
     >
-      @cuneytyilmaz
+      <FontAwesome
+        name="linkedin"
+      />
+       cuneytyilmaz
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://twitter.com/CuneytYilmazz"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FontAwesome
+        name="twitter"
+      />
+       CuneytYilmazz
+    </a>
+    <a
+      className="Footer-menu__item"
+      href="https://www.instagram.com/cuneytylmz/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FontAwesome
+        name="instagram"
+      />
+       cuneytylmz
     </a>
   </nav>
 </footer>

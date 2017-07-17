@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import Home from './routes/Home';
+import Slide2 from './components/slider/slides/Slide2';
 
 it('renders correctly', () => {
-  const wrapper = shallow(<Home />);
+  const wrapper = shallow(<Slide2 />);
 
   expect(wrapper).toMatchSnapshot();
 });

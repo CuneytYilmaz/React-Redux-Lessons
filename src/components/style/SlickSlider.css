@@ -7,6 +7,7 @@
   opacity: 1;
   font-size: 8;
   transform: scale(1.3);
+  content: "•";
 }
 
 .slick-dots li.slick-active button::before {
